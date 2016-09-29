@@ -63,12 +63,13 @@ etc/test/burl-server.conf
 etc/test/burl-server.properties
 etc/test/msoy-server.conf
 etc/test/msoy-server.properties
-and edited to reflect the configuration of your local instance. The .dist config files contain comments explaining each of the configurations. The most important configuration is for a local database server (either MySQL or Postgres) which the Whirled server will use to store data.
 ```
+and edited to reflect the configuration of your local instance. The .dist config files contain comments explaining each of the configurations. The most important configuration is for a local database server (either MySQL or Postgres) which the Whirled server will use to store data.
 
 Assuming you have successfully run ant distall to build the server and client, and you have put the configuration files in place, and your database server is properly configured and running, you can run the local Whirled instance like so:
 
-```` ./bin/msoyserver 
+```` 
+./bin/msoyserver 
 ```
 
 This will report log messages to the console indicating the status of the running server. If you see something like the following, then you're in good shape:
