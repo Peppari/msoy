@@ -3,10 +3,10 @@ What in the Whirled is this?
 
 # Notes
 Note: Run in Msoy-Master.
-````
+
 **update**: ant dist && ant asclient && ant compile && ant flashapps && ant gclients && ant tests && ant thane-client
 **start Server**: sudo ./bin/msoyserver
-```
+
 # This is the source code to the Whirled online virtual world platform.
 
 ## Abandon hope all ye who enter here
