@@ -1,5 +1,5 @@
 # Msoy
-What in the Whirled is this?
+What's this?
 
 # Notes
 Note: Run in Msoy-Master.
